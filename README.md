@@ -4,6 +4,8 @@ Daum Restful API helper written in PHP.
 
 This project has just been created. This project will be able to be used by composer in the future.
 
+![Login](https://raw.github.com/masanggil1986/PHP-DAUM-API/master/examples/screenshots/login.png)
+
 ## How To
 
 Please make sure your `client_id` and `redirect_uri`.
@@ -15,4 +17,3 @@ $settings = array(
 );
 $phpDaumApi = $phpDaumApi ?? new PhpDaumApi\UserManagement($settings);
 ```
-
